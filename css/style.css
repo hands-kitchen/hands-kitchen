@@ -1,0 +1,177 @@
+@font-face {
+	font-family: 'fontku';
+	src: url(/FONT/Hello\ Cartel\ Story\ Sans.ttf);
+}
+*{
+	padding:0;
+	margin:0;
+
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: #982121;
+}
+.medsos ul li{
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+header{
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+	font-size: 20px;
+	color: #982121;
+}
+header img{
+	width: 50px;
+	float: left;
+	padding: 15px;
+	padding-left: 0;
+}
+header ul{
+	float: left;
+	padding-left:20px ;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #982121;
+	color: #fff;
+}
+.active{
+	background-color: #982121;
+	color: #fff;
+}
+.images{
+	display: flex;
+	width: 100%;
+	height: 500px;
+	transition: 2s;
+}
+.images img{
+	width: 100%;
+	height: auto;
+	
+}
+.wrapper{
+	width: 1314px;
+	margin: auto;
+	overflow: hidden;
+	border-radius: hidden;
+}
+#slide-1:target ~ .images{
+	margin-left: 0px;
+}
+#slide-2:target ~ .images{
+	margin-left: -1314px;
+}
+#slide-3:target ~ .images{
+	margin-left: -2628px;
+}
+#slide-4:target ~ .images{
+	margin-left: -3942px;
+}
+.navigation a{
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	background-color: #dedede;
+	font-size: 0%;
+	border-radius: 50%;
+}
+.navigation a:hover{
+	background-color: #666;
+	transition: 1s;
+	
+}
+.navigation {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin-top: -50px;
+}
+section{
+	padding: 50px 0;
+
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color: #982121;
+	font-family: fontku;
+	font-size: 50px;
+}
+.about p{
+	color: #666;
+	word-spacing: 2;
+	font-size: 25px;
+}
+footer{
+	padding: 30px 0;
+	background-color:#982121;
+	color: #ffffff;
+	text-align: center;
+}
+
+.card{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px 40px;
+	justify-content: center;
+	padding: 45px 45px 45px;
+}
+.testimoni{
+	padding: 40px 0px 0px;
+	flex-grow: 1;
+	flex-basis: 280px;
+	max-width: 360px;
+	position: relative;
+	
+}
+.testimoni p{
+	position: center;
+	padding-left: ;
+	font-size: 30px;
+	text-align: center;
+}
+.testimoni-img{
+	display: inline-block;
+	width: 0px;
+	margin-right: 0px;
+}
+.testimoni-img img{
+	max-width: 300px;
+	vertical-align: bottom;
+	border-radius: ;
+	padding-left: 10px;
+}
+footer ul h4{
+	display: inline-block;
+	float: center;
+	padding-top: 0;
+	padding-left: 0;
+}
+
